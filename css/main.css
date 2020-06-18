@@ -56,18 +56,22 @@ header {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    text-align: center;
 }
 
 header h1 {
 	margin: 0;
-	padding: 38px 0;
+	padding: 38px 0 19px;
+    width: 100%;
+    border-bottom: 3px solid #77a466;
 }
 header h1 span {
 	color: #77a466;
 }
 
 header nav {
-	padding: 46px 0;
+	padding: 23px 0;
+    width: 100%
 }
 header nav ul {
 	margin: 0;
@@ -78,10 +82,8 @@ header nav ul li {
 	font-weight: 700;
 	font-size: .875em;
 	padding: 0 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-flow: row wrap;
+    list-style: none;
+    line-height: 2em;
 }
 header nav ul li a{
 	text-decoration: none;
@@ -121,7 +123,7 @@ header nav ul li a{
 .section-one,
 .section-two,
 .section-three {
-	width: 33%;
+	width: 100%;
 	border-top: 1px solid #eee;
 }
 
@@ -168,6 +170,7 @@ footer {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    width: 100%;
 }
 footer span {
 	font-family: 'Galada', cursive;
