@@ -178,3 +178,20 @@ footer span {
 	color: #77a466;
 	font-size: .875em;
 }
+
+/*---TABLET STYLES---*/
+@media all and (min-width: 768px){
+    .bottom-section{
+        flex-flow: row wrap;
+    }
+    .section-one,
+    .section-two,
+    .section-three {
+        width: 33%;
+    }
+}
+
+/*---DESKTOP STYLES---*/
+@media all and (min-width: 1200px){
+    
+}
